@@ -12,7 +12,7 @@ public class Student extends Person{
     }
 
     public void takeQuiz(){
-        System.out.println("This is Professor. Here is the quiz answer: " + quizAnswer);
+        System.out.println("This is Student. Here is the quiz answer: " + quizAnswer);
     }
 
 
