@@ -8,11 +8,14 @@ public class Professor extends Person{
 
     public Professor(String name, int ID, int age, String quiz){
         super(name, ID, age);
+        this.name = name;
+        this.ID = ID;
+        this.age = age;
         this.quiz = quiz;
     }
 
     public void giveQuiz(){
-        System.out.println("This is Professor. Here is the quiz: " + quiz);
+        System.out.println("This is Professor " + name + ". Here is the quiz: " + quiz);
     }
 
 
