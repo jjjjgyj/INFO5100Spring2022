@@ -22,6 +22,7 @@ public class Main {
 
     // unsubscribe one citizen from Seattle Police Department
         person1.unsubscribe(spd);
+
     // publish a message from Seattle Police Department
         spd.notifyCitizen("Sunny now. Enjoy sunshine.");
 
